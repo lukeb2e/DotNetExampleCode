@@ -1,0 +1,21 @@
+{
+  "lastUpdate": 1631052000000,
+  "states": [
+    {
+      "name": "Schleswig-Holstein",
+      "code": "SH",
+      "count": 72932,
+      "weekIncidence": 49.0917679391935,
+      "casesPer100k": 2505.50092326191,
+      "deaths": 1662
+    },
+    {
+      "name": "Hamburg",
+      "code": "HH",
+      "count": 87243,
+      "weekIncidence": 78.92131512493,
+      "casesPer100k": 4709.52961384697,
+      "deaths": 1655
+    }
+  ]
+}

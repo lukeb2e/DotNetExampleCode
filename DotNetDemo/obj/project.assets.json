@@ -53,9 +53,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ADP\\DotNetExampleCode\\DotNetDemo\\DotNetDemo.csproj",
-      "projectName": "DotNetDemo",
-      "projectPath": "C:\\projects\\ADP\\DotNetExampleCode\\DotNetDemo\\DotNetDemo.csproj",
+      "projectUniqueName": "C:\\projects\\ADP\\DotNetExampleCode\\DotNetDemo\\CitizenApi.csproj",
+      "projectName": "CitizenApi",
+      "projectPath": "C:\\projects\\ADP\\DotNetExampleCode\\DotNetDemo\\CitizenApi.csproj",
       "packagesPath": "C:\\Users\\CROSCHA\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\ADP\\DotNetExampleCode\\DotNetDemo\\obj\\",
       "projectStyle": "PackageReference",
