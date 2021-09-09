@@ -15,7 +15,7 @@ namespace DotNetDemo.Controllers
         public IEnumerable<string> Get()
         {
             //Todo Read json file and return a list of type citizen with the same properties as the json objects
-            throw new NotImplementedException();
+            return new[]{"To","Do"};
         }
         
     }

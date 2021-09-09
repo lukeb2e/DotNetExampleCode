@@ -1,17 +1,21 @@
 ﻿using System;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace WarnCitizen
 {
     class Program
     {
         static readonly HttpClient client = new HttpClient();
-        static readonly string coronaIncidenceApi = "https://rki.marlon-lueckert.de/api/states";
-        static readonly string citizenApi = "http://localhost:5000/citizen";
-        static async System.Threading.Tasks.Task Main(string[] args)
+        private const string coronaIncidenceApi = "https://rki.marlon-lueckert.de/api/states";
+        private const string citizenApi = "http://localhost:5000/citizen";
+
+        static async Task Main(string[] args)
         {
-            //TODO use HttpClient to fetch data from the coronaIncidenceApi(example of the properties are found in the CoronaApi json)  and citizenApi to find the citizen who live in states with an index above 50 and warn them
-            Console.WriteLine("TODO");
+            //TODO use HttpClient to fetch data from the coronaIncidenceApi(example of the data structure is shown in DataStructureCoronaApi.json) and citizenApi to find the citizens who live in states with an incidences above 50 and warn them
+            var response = await client.GetAsync(citizenApi);
+            var citizens = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(citizens);
             Console.ReadKey();
         }
     }
