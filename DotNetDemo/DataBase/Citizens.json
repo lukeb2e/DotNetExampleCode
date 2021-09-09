@@ -1,7 +1,7 @@
 [
   {
     "userId": "22558c65-374e-4de9-a236-014f17814baa",
-    "firstName": "Monika",
+    "x-firstName": "Monika",
     "lastName": "Musterfrau",
     "street": "Fananenweg",
     "houseNo": "15",
@@ -16,7 +16,7 @@
   },
   {
     "userId": "fa5845e4-b869-4569-b25e-5416b3104f17",
-    "firstName": "Max",
+    "x-firstName": "Max",
     "lastName": "Mustermann",
     "street": "Muehlenstrasse",
     "houseNo": "39",
